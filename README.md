@@ -1,79 +1,23 @@
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
-
-# Project Title
-
-Final project for the Building AI course
+# Tili-Tiikeri - Automating Accounting with AI
+_Building AI course project_
 
 ## Summary
-
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+Project Tili-Tiikeri is an AI-driven platform aimed at automating accounting tasks for small to medium-sized businesses.
 
 ## Background
+Bookkeeping is a time-consuming and repetitive process that requires attention to detail. Small businesses, in particular, struggle with efficient bookkeeping due to limited resources and expertise. As an ERP Consultant, I have observed the challenges faced by businesses and accountants, and it is my mission to alleviate their burden. Project Tili-Tiikeri aims to automate daily tasks, reducing human error, and freeing up valuable time for more strategic activities.
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+## Data and AI Techniques
+To build a comprehensive AI-based accounting solution, we will rely on data sources such as general ledger data, invoices and payment data. The system will be trained on a vast dataset of anonymized and aggregated financial records to identify patterns and learn best practices. Techniques like natural language processing (NLP), machine learning (ML), and deep learning algorithms will be employed to interpret data, categorize transactions, and generate accurate financial reports.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
-
-## How is it used?
-
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
-
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+## How is it Used
+Project Tili-Tiikeri is designed for small to medium-sized businesses. The AI-powered platform will integrate with Microsoft Business Central. Features will be configured according to customers needs. Functionality itself is modular, it can be made step by step incrementally.
 
 ## Challenges
+Project Tili-Tiikeri is not without limitations. While it can automate many bookkeeping tasks, it may struggle to interpret complex or ambiguous transactions. Additionally, the AI may require ongoing training and customization to adapt to evolving regulations and business requirements. Human oversight will still be necessary to ensure accuracy and compliance.
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
-
-## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
+## What Next
+To enhance the capabilities of Project Tili-Tiikeri, we envision adding features such as fraud detection, tax optimization, and financial forecasting.
 
 ## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+Project Tili-Tiikeri is inspired by the advancements in AI and the open-source contributions of the AI community. 
